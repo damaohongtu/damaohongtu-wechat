@@ -2,9 +2,11 @@
 <wxs src="../../utils/dateutils.wxs" module="dateutils" />
 <wxs src="../../utils/util.wxs" module="commonutil" />
 
-
 <l-capsule-bar hidden-capsule title="个人随笔" home-page="/pages/index/index" capsule-color="white" bg-color="#ffffff">
 </l-capsule-bar>
+
+
+<van-toast id="van-toast" />
 
 <!-- 容器开始 start -->
 <view class="container-outer">
@@ -36,10 +38,10 @@
       </view>
     </l-card>
   </div>
-  <!-- ios底部留白专用 -->
-  <l-loadmore show="{{true}}" type="end" end-text="没有更多内容了哟~" loading-text="加载中~">
-
-  </l-loadmore>
 
 </view>
 <!-- end -->
+
+<!-- ios底部留白专用 -->
+<l-loadmore show="{{true}}" type="end" end-text="没有更多内容了哟~" loading-text="加载中~">
+</l-loadmore>

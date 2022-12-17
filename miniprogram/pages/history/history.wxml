@@ -10,8 +10,6 @@
 
 <!-- 容器开始 start -->
 <view class="container-outer">
-
-
   <van-search clearable bind:clear="onClear" value="" bind:search="onSearch" shape="round" background="white" placeholder="请输入搜索关键词" />
   <l-segment bind:linchange="changeTabs" active-key="{{latestTag}}" has-line="{{true}}" l-active-class="tab-active" l-header-class="su-tab-header" scrollable="{{true}}">
     <l-segment-item has-line key="{{latestTag}}" slot="{{latestTag}}">

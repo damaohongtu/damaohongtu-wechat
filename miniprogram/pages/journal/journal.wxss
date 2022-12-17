@@ -2,7 +2,6 @@
 /* 卡片列表 */
 
 page{
-  padding: 10px;
   background-attachment: fixed;
   background-color: #F3F5F7;
   background-size: cover; 
@@ -14,9 +13,6 @@ page{
   margin: 10rpx auto !important;
   border-radius: 10px;
 }
-
-
-
 
 .avter-content {
   margin-top: 0rpx;
@@ -47,4 +43,9 @@ page{
   color: #666;
   font-size: 24rpx;
   margin-left: 12rpx;
+}
+
+.container-outer{
+  margin: 10px;
+  margin-bottom: 100px;
 }

@@ -130,7 +130,7 @@ onShareTimeline(){
     } else {
       wx.showToast({
         title: '没有更多数据',
-        image:'../../images/noneData.png',
+        icon:'none',
         duration: 2000
       })
     }

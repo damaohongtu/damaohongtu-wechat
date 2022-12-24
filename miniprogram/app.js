@@ -22,8 +22,8 @@ App({
     }
 
     this.globalData = {
-      domain:'http://118.195.191.165:8090/',
-      baseUrl: 'http://118.195.191.165:8090/api', //api
+      domain:'https://damaohongtu.com',
+      baseUrl: 'https://damaohongtu.com/api', //api
       api_access_key:"U2FsdGVkX18MDkXATXimyf6PQ33JVzuKvURxMe9ZtF4=", //token
       index_bg_image_url:"https://cdn.jsdelivr.net/gh/wangsrGit119/wangsr-image-bucket/img-article/photo-1507738978512-35798112892c.jfif",//首页背景
       title:"大袤宏图",//自定义title

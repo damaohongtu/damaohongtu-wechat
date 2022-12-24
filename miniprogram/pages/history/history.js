@@ -180,7 +180,7 @@ Page({
     const sort1 = "topPriority,desc";
     const sort2 = "createTime,desc";
     wx.showLoading({								//显示 loading 提示框
-      title: '文章加载中',
+      title: '加载中',
     })
     wx.request({
       url: app.globalData.baseUrl + '/content/posts?api_access_key='+app.globalData.api_access_key+'&page='+page+'&size='+size+'&sort='+sort1+'&sort='+sort2,
@@ -246,7 +246,7 @@ Page({
  loadPostsBySlug(slug){
   const that = this;
   wx.showLoading({								//显示 loading 提示框
-    title: '文章加载中',
+    title: '加载中',
   })
   const page = that.data.page;
   const size = that.data.pageSize;

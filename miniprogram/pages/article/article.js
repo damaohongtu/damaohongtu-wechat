@@ -242,7 +242,7 @@ Page({
   loadArticleDetail(articleId){
     const that = this;
     wx.showLoading({								//显示 loading 提示框
-      title: '文章加载中',
+      title: '加载中',
     })
     wx.request({
       url: app.globalData.baseUrl + '/content/posts/'+articleId+'?api_access_key='+app.globalData.api_access_key+'&formatDisabled=false'+'&sourceDisabled = true',

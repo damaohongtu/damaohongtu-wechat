@@ -2,7 +2,7 @@
 <wxs src="../../utils/dateutils.wxs" module="dateutils" />
 <wxs src="../../utils/util.wxs" module="commonutil" />
 
-<l-capsule-bar hidden-capsule title="个人随笔" home-page="/pages/index/index" capsule-color="white" bg-color="#ffffff">
+<l-capsule-bar hidden-capsule title="Notes" home-page="/pages/index/index" capsule-color="white" bg-color="#ffffff">
 </l-capsule-bar>
 
 

@@ -37,7 +37,7 @@
 
 
   <!-- 文章列表 -->
-  <l-list l-class="l-list-header" title="最新文章" icon="time" l-class-image="l-list-image-four" image="/images/article.png" is-link="{{false}}" />
+  <l-list l-class="l-list-header" title="Hot" icon="time" l-class-image="l-list-image-four" image="/images/article.png" is-link="{{false}}" />
   <official-account style="margin-top: 5px;"></official-account>
   <!-- 骨架屏 -->
 

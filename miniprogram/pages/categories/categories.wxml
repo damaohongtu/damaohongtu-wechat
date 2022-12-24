@@ -1,7 +1,7 @@
 <!--miniprogram/pages/categories/categories.wxml-->
 <l-capsule-bar 
 hidden-capsule
-title="文章分类"
+title="Categories"
 capsule-color="white" 
 bg-color="#ffffff">
 </l-capsule-bar>
